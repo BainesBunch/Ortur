@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Table_Lifter", "Table_Lifter.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DMStepper-1.0.1", "Libraries\DMStepper\1.0.1\DMStepper\DMStepper-1.0.1.vcxitems", "{EF48C1D8-C5D6-44F6-AF31-670848E05DA2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Smoothed-1.1", "Libraries\Smoothed\1.1\Smoothed\Smoothed-1.1.vcxitems", "{47E13EFD-EA15-4091-8318-7D9C3E93246C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adafruit_BusIO-1.6.0", "Libraries\Adafruit_BusIO\1.6.0\Adafruit_BusIO\Adafruit_BusIO-1.6.0.vcxitems", "{C1C3740C-4613-4A71-9EB0-BFAB544C524F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Encoder-1.4", "Libraries\Encoder\1.4\Encoder\Encoder-1.4.vcxitems", "{C05FB1F7-1A58-47E0-B51B-497C91D5CBDC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpeedyStepper-1.0.0", "Libraries\SpeedyStepper\1.0.0\SpeedyStepper\SpeedyStepper-1.0.0.vcxitems", "{F27CD692-5038-426E-8198-4F914871BE7A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FlexyStepper-1.0.0", "Libraries\FlexyStepper\1.0.0\FlexyStepper\FlexyStepper-1.0.0.vcxitems", "{1027ABEE-0C13-4E31-AFB7-1F48AF7BC9B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StepperDriver-master-1.3.1", "Libraries\StepperDriver-master\1.3.1\StepperDriver-master\StepperDriver-master-1.3.1.vcxitems", "{11A6F8B6-2DB9-474C-A98F-9E80755D0193}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stepper-1.1.3", "Libraries\Stepper\1.1.3\Stepper\Stepper-1.1.3.vcxitems", "{70244A4E-2A8E-410B-9511-4A5461CA9FA7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Time-1.6", "Libraries\Time\1.6\Time\Time-1.6.vcxitems", "{F4251ED0-922C-47DC-A11D-AE596BC09493}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Libraries\FlexyStepper\1.0.0\FlexyStepper\FlexyStepper-1.0.0.vcxitems*{1027abee-0c13-4e31-afb7-1f48af7bc9b2}*SharedItemsImports = 9
+		Libraries\StepperDriver-master\1.3.1\StepperDriver-master\StepperDriver-master-1.3.1.vcxitems*{11a6f8b6-2db9-474c-a98f-9e80755d0193}*SharedItemsImports = 9
+		Libraries\Smoothed\1.1\Smoothed\Smoothed-1.1.vcxitems*{47e13efd-ea15-4091-8318-7d9c3e93246c}*SharedItemsImports = 9
+		Libraries\Stepper\1.1.3\Stepper\Stepper-1.1.3.vcxitems*{70244a4e-2a8e-410b-9511-4a5461ca9fa7}*SharedItemsImports = 9
+		Libraries\Encoder\1.4\Encoder\Encoder-1.4.vcxitems*{c05fb1f7-1a58-47e0-b51b-497c91d5cbdc}*SharedItemsImports = 9
+		Libraries\Adafruit_BusIO\1.6.0\Adafruit_BusIO\Adafruit_BusIO-1.6.0.vcxitems*{c1c3740c-4613-4a71-9eb0-bfab544c524f}*SharedItemsImports = 9
+		Libraries\Encoder\1.4\Encoder\Encoder-1.4.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\FlexyStepper\1.0.0\FlexyStepper\FlexyStepper-1.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\Smoothed\1.1\Smoothed\Smoothed-1.1.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\SpeedyStepper\1.0.0\SpeedyStepper\SpeedyStepper-1.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\StepperDriver-master\1.3.1\StepperDriver-master\StepperDriver-master-1.3.1.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\Stepper\1.1.3\Stepper\Stepper-1.1.3.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\Time\1.6\Time\Time-1.6.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\DMStepper\1.0.1\DMStepper\DMStepper-1.0.1.vcxitems*{ef48c1d8-c5d6-44f6-af31-670848e05da2}*SharedItemsImports = 9
+		Libraries\SpeedyStepper\1.0.0\SpeedyStepper\SpeedyStepper-1.0.0.vcxitems*{f27cd692-5038-426e-8198-4f914871be7a}*SharedItemsImports = 9
+		Libraries\Time\1.6\Time\Time-1.6.vcxitems*{f4251ed0-922c-47dc-a11d-ae596bc09493}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3FB62D5-9AB0-4884-847A-3A868595A8EB}
+	EndGlobalSection
+EndGlobal
